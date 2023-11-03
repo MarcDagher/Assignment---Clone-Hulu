@@ -1,0 +1,115 @@
+header{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original");
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  padding: 60px;
+}
+
+.hulu-logo{
+  height: 30px;
+  width: 75px;
+  text-align: center;
+}
+
+
+.login > p{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #A8AFBD;
+}
+
+.login:hover{
+  background-color: rgb(53, 51, 51);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+/* containing the 2 boxes inside the header*/
+.header-boxes-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+
+.header-boxes-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.bundle-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 25px;
+}
+
+.bundle-box > h5{
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.basic-image{
+  height: 70px;
+  width: 250px;
+}
+
+.trio-image{
+  height: 80px;
+  width: 330px;
+
+}
+
+.bundle-box > h6{
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 500;
+  text-wrap: wrap;
+}
+
+.force-wrap{
+  width: 90%;
+}
+
+.bundle-box > button{
+  font-size: 1.15rem;
+  font-weight: 600;
+  width: 400px;
+  height: 55px;
+  color: #1d1d22;
+  background-color: #1CE783;
+  border-radius: 5px;
+}
+
+.bundle-box > button:hover{
+  background-color: #1ce781d8;
+  cursor: pointer;
+}
+
+.header-terms{
+  padding: 25px 0 30px 0;
+  font-size: 1.2rem;
+}
+
+.header-signup{
+  font-size: 1.4rem;
+}
+
