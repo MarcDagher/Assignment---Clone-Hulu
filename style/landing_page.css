@@ -118,22 +118,85 @@ nav{
 
 /* NEW SECTION */
 
+/* .tv-shows{
+  height: 200vh;
+} */
+
 .tv-container{
-  height: 100vh;
-  width: 100vw;
-  background-color: #0b0c0f;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  height: 100vh;
+  width: 100vw;
+  /* padding:100px 0 ; */
+  background-color: #0b0c0f;
+  /* gap: 150px; */
 }
 
-.tv-images-section{
+.tv-heading{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.tv-heading > h5{
+  font-size: 1.1rem;
+  color: #1CE783;
+  padding-top: 50px;
+}
+
+.tv-heading > h1{
+  font-size: 4rem;
+}
+
+.tv-heading > p{
+  font-size: 1.3rem;
+  text-wrap: wrap;
+  padding-bottom: 150px;
+}
+
+.tv-image-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
 }
 
 .tv-box{
-  height: 200px;
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.family-guy{
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/82fd53644e709344c9e9c1f4ba66519505ecea256294d59a0637bda76ae1436b/original");
+  background-size: fill;
+}
+
+.prey{
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/8c630a19daa8615918152082839724f4dab6538939ba7d3bb45f8faa97acf1b9/original");
+  background-size: fill;
+}
+
+.murder{
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/6293f29d56ae0519362951fa38cf62f61004662eb674e61d99e93e7f064d74ff/original");
+  background-size: fill;
+}
+
+.sopranos{
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/f3f84cde435747f424ce4ad52d351efc96b5da4765af2f76afa9b86fb5bc9a37/original") ;
+  background-size: fill;
+}
+
+.tv-image-container{
+  height: 100%;
+  width: 100%;
+  max-height: 60px;
+  max-width: 200px; 
 }
