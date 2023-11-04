@@ -119,11 +119,9 @@ nav{
 }
 
 /* ---- NEW SECTION ---- */
-
 .tv-shows{
-  height: 75%;
+  margin-bottom: 100px;
 }
-
 .tv-container{
   display: flex;
   flex-direction: column;
@@ -131,6 +129,7 @@ nav{
   align-items: center;
   height: 120vh;
   width: 100vw;
+  margin-bottom: 120px;
 }
 
 .tv-heading{
@@ -255,7 +254,7 @@ nav{
   justify-content: center;
   height: 100%;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1150px;
   margin: 0 auto;
   padding-right: 20px;
   padding-top: 20px;
@@ -266,16 +265,18 @@ nav{
 .tv-footer > h3{
   color: #1CE783;
   font-size: 1.25rem;
+  margin-bottom:5px;
 }
 
 .tv-footer > h1{
   font-size: 4rem;
-  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .tv-footer > h2{
   font-size: 1.65rem;
   font-weight: lighter;
+  margin-bottom:10px;
 }
 
 .tv-footer-button > button{
@@ -303,4 +304,104 @@ nav{
 .tv-footer > a{
   font-weight: 600;
   color: #d5d7db;
+}
+
+/* NEW Section */
+
+.live-tv-plan{
+  height: 100vh;
+  width: 100vw;
+}
+
+.live-tv-plan-wrapper{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/3ab6ce86baaf4225b072c58fa9497ec949c0c9e284b3958ecda1429b7f3744f9/original");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.info-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100%;
+  width: 75%;
+  gap: 25px;
+}
+
+
+.titles{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.titles-a{
+  padding-bottom:20px;
+  border-bottom: 7px solid white ;
+}
+
+.titles-a > a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.titles-a > a:hover{
+  color: #A8AFBD;
+}
+
+.info-box > h1{
+  font-size: 4rem;
+}
+
+.live-text{
+  width: 100%;
+  max-width: 650px;
+  font-size: 1.35rem;
+  margin-bottom: 20px;
+}
+
+.live-tv-plan-logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.live-logo{
+  border-radius: 60%;
+  text-align: center;
+  background-color: white;
+  height: 65px;
+  width: 65px;
+}
+
+.cbs > img{
+  width: 55px;
+}
+
+.nfl > img{
+  height: 48px;
+  padding-top: 10px;
+}
+
+.live-tv-plan span{
+  color: #A8AFBD;
+  font-size: 0.9rem;
+}
+
+.live-tv-plan span > a{
+  color: #A8AFBD;
+  font-size: 0.9rem;
 }
