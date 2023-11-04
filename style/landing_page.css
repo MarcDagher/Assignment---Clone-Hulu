@@ -118,10 +118,10 @@ nav{
   font-size: 1.4rem;
 }
 
-/* NEW SECTION */
+/* ---- NEW SECTION ---- */
 
 .tv-shows{
-  height: 200vh;
+  height: 75%;
 }
 
 .tv-container{
@@ -158,7 +158,6 @@ nav{
 .tv-heading > p{
   font-size: 1.3rem;
   text-wrap: wrap;
-  /* padding-bottom: 25px; */
 }
 
 .tv-image-boxes{
@@ -245,4 +244,63 @@ nav{
   padding-top: 20px;
   font-size: 0.8rem;
   color:#A8AFBD;
+}
+
+/* ---- NEW SECTION ---- */
+
+.tv-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-top: 20px;
+  text-align: center;
+  gap: 20px;
+}
+
+.tv-footer > h3{
+  color: #1CE783;
+  font-size: 1.25rem;
+}
+
+.tv-footer > h1{
+  font-size: 4rem;
+  padding-bottom: 5px;
+}
+
+.tv-footer > h2{
+  font-size: 1.65rem;
+  font-weight: lighter;
+}
+
+.tv-footer-button > button{
+  background-color: #1CE783;
+  padding: 20px 35px;
+  font-size: 1.15rem;
+  color: #1d1d22;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.tv-footer-button > button:hover{
+  cursor: pointer;
+}
+
+.tv-footer > span{
+  color: #A8AFBD;
+  font-size: 0.8rem;
+}
+
+.tv-footer > span > a{
+  color: #A8AFBD;
+}
+
+.tv-footer > a{
+  font-weight: 600;
+  color: #d5d7db;
 }
