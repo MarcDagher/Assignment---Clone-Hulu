@@ -1,5 +1,5 @@
 header{
-  height: 1050px;
+  height: 900px;
   width: 100vw;
   background-image: url("https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original");
   background-size: cover;
@@ -48,7 +48,7 @@ nav{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 85%;
+  height: 75%;
 }
 
 /* contains the 2 header boxes */
@@ -131,7 +131,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1100px;
+  height: 100%;
   width: 100vw;
   margin-bottom: 120px;
 }
@@ -144,6 +144,7 @@ nav{
   height: 75%;
   width: 75%;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .tv-heading > h5{
@@ -166,12 +167,12 @@ nav{
 .tv-image-boxes{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 100%;
-  width: 97%;
-  gap: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-
 
 .family-guy{
   background-image: url("https://cnbl-cdn.bamgrid.com/assets/82fd53644e709344c9e9c1f4ba66519505ecea256294d59a0637bda76ae1436b/original");
@@ -204,10 +205,8 @@ nav{
 .tv-box{
   display: flex;
   flex-direction: column;
-  height: 100%;
-  max-height: 625px;
-  width: 100%;
-  max-width: 450px;
+  height: 590px;
+  width: 390px;
   outline: 5px solid transparent;
   border-radius: 10px;
   padding-left: 35px;
@@ -248,6 +247,8 @@ nav{
   font-size: 0.8rem;
   color:#A8AFBD;
 }
+
+
 
 /* ---- NEW SECTION ---- */
 
@@ -314,11 +315,11 @@ nav{
 
 .live-tv-plan{
   height: 100%;
-  width: 100vw;
+  width: 100%;
 }
 
 .live-tv-plan-wrapper{
-  height: 1100px;
+  height: 100%;
   width: 100%;
   background-image: url("https://cnbl-cdn.bamgrid.com/assets/3ab6ce86baaf4225b072c58fa9497ec949c0c9e284b3958ecda1429b7f3744f9/original");
   background-position: right;
@@ -420,7 +421,7 @@ nav{
   width: 100vw;
   margin: 0 auto;
   gap: 30px;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .select-plan-header{
@@ -717,7 +718,6 @@ br{
   justify-content: flex-start;
   align-items: flex-start;
   width: 80%;
-  /* max-width: 1350px; */
   flex-wrap: wrap;
   gap: 30px;
   padding-right: 100px;
@@ -733,3 +733,10 @@ br{
 }
 
 
+@media (max-width: 1620px){
+  .tv-container{
+    width: 72%;
+    margin: 120px auto;
+    min-width: 800px;
+  }
+}
